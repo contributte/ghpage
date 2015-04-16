@@ -2,6 +2,12 @@
 
 Lightweight static page generator written in Nette (http://nette.org).
 
+## Install
+
+```sh
+$ composer create-project minetro/ghpage:dev-master
+```
+
 ## Usage
 
 ### 1. Select your template
