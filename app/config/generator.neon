@@ -1,0 +1,16 @@
+extensions:
+    generator: Generator\Extension
+
+generator:
+    # Templates dir
+    themes: %wwwDir%\themes
+
+    # Output dir
+    output: %wwwDir%\ouput
+
+    # Selected template
+    theme: merlot
+
+    # Template variables
+    template:
+        author: Milan Felix Sulc

@@ -1,0 +1,8 @@
+https://github.com/hexojs/hexo/wiki/Themes
+https://github.com/orderedlist/modernist
+https://github.com/orderedlist/minimal
+https://github.com/mattgraham/leapday
+https://github.com/mattgraham/midnight
+https://github.com/jonrohan/time-machine-theme
+https://github.com/jasoncostello/slate
+https://github.com/cameronmcefee/merlot

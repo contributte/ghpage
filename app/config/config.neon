@@ -1,0 +1,29 @@
+parameters:
+
+php:
+    date.timezone: Europe/Prague
+
+latte:
+    xhtml: no
+
+application:
+    errorPresenter: Error
+    catchExceptions: %productionMode%
+
+di:
+    debugger: no
+
+tracy:
+    email: sulcmil@gmail.com
+    strictMode: yes
+
+session:
+    debugger: %debugMode%
+    expiration: 1 year
+    autoStart: smart
+
+services:
+    router: Generator\RouterFactory::createRouter
+    latte.latteFactory:
+        setup:
+            - setTempDirectory(null)

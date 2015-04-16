@@ -1,0 +1,5 @@
+/ouput
+/vendor
+/app/log
+/app/temp
+/composer.lock

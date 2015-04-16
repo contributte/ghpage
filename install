@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# Load composer
+composer update --prefer-dist --no-dev --no-interaction
+
+# Create temp and log
+rm app/temp -r -f
+mkdir app/temp
+rm app/log -r -f
+mkdir app/log

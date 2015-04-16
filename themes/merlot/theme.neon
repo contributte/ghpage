@@ -1,0 +1,15 @@
+# Theme config
+theme:
+	name: Merlot
+	version: 1.0
+
+	pages: %themeDir%\theme
+
+	copy:
+		- %themeDir%\theme\fonts
+		- %themeDir%\theme\images
+		- %themeDir%\theme\javascripts
+		- %themeDir%\theme\stylesheets
+
+# Model config (for dynamic pages)
+model:
