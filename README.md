@@ -2,6 +2,12 @@
 
 Lightweight static page generator written in Nette (http://nette.org).
 
+-----
+
+## Discussion / Help
+
+[![Join the chat at https://gitter.im/Markette/Gopay](https://img.shields.io/gitter/room/minetro/nette.svg?style=flat-square)](https://gitter.im/minetro/nette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Install
 
 ```sh
@@ -10,22 +16,22 @@ $ composer create-project minetro/ghpage:dev-master
 
 ## Usage
 
-### 1. Select your template
+1. Select your template
 
-There are several templates you can use it for. 
+  There are several templates you can use it for. 
+  
+  **Prepared** - you can choose it from the list
+  
+  **Custom** - you could make it by your own
 
-**Prepared** - you can choose it from the list
+2. Fill your template
 
-**Custom** - you could make it by your own
+  You have customized text in the template by your own.
 
-### 2. Fill your template
+3. Generate static files
 
-You have customized text in the template by your own.
+  By command **generate** you create static HTML files.
 
-### 3. Generate static files
+4. Deploy to your repository
 
-By command **generate** you create static HTML files.
-
-### 4. Deploy to your repository
-
-To `deploing`, you can use **deploy** command. 
+  To `deploing`, you can use **deploy** command. 
